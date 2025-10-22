@@ -37,14 +37,16 @@ import Layout from "../layouts/main.astro";
         <Button text="Follow me on 𝕏" link="https://x.com/0xKaiBi" />
       </div>
       <div
-        class="relative justify-end hidden w-full mt-10 md:flex md:pl-10 md:w-1/2 md:mt-0 md:translate-y-4 xl:translate-y-0"
+        class="relative justify-end hidden w-full mt-10 md:flex md:pl-10 md:w-1/2 md:mt-0 md:translate-y-4 xl:translate-y-0 overflow-hidden"
       >
+
+
         <div class="relative z-50 w-full">
           <div
             class="absolute bottom-0 z-40 w-16 h-16 -translate-x-6 -translate-y-1/2 lg:top-auto top-0 lg:-translate-y-[330px] rounded-full"
           >
             <span
-              class="relative z-20 flex items-center justify-center w-full h-full text-2xl border-8 border-white rounded-full dark:border-neutral-950 bg-neutral-100 dark:bg-neutral-900"
+              class="relative z-30 flex items-center justify-center w-full h-full text-2xl border-8 border-white rounded-full dark:border-neutral-950 bg-neutral-100 dark:bg-neutral-900"
             >
               <span
                 class="flex items-center justify-center w-full h-full bg-white border border-dashed rounded-full dark:bg-neutral-950 border-neutral-300 dark:border-neutral-700"
@@ -52,16 +54,17 @@ import Layout from "../layouts/main.astro";
               >
             </span>
           </div>
-          <div class="relative z-30 px-10">
+          <div class="relative z-30 px-4 w-full overflow-hidden">
             <img
               src="/assets/images/qwe.png"
               loading="eager"
               decoding="auto"
-              class="relative z-30 mx-auto max-w-full h-auto"
+              class="relative z-30 mx-auto max-w-full h-auto object-contain"
             />
-
-
           </div>
+
+
+
           <div
             class="absolute bottom-0 right-0 z-20 w-full h-full lg:h-[420px] translate-x-0 -translate-y-px border border-dashed rounded-2xl bg-gradient-to-r dark:from-neutral-950 dark:via-black dark:to-neutral-950 from-white via-neutral-50 to-white border-neutral-300 dark:border-neutral-700"
           >
